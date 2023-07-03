@@ -1,4 +1,4 @@
-## 前言
+## 前言BV310
 
 1. 经过ophub、unifreq/flippy等大佬的默默付出，晶晨S905系列电视盒子适配armbian系统的进展越来越好。手上刚好有一台天邑的TY1608（浙江电信版），S905L3B芯片、1+8G，带2个USB2.0、1个TF卡槽，还板载了8822cs无线，如果能顺利刷成armbian盒子应该很香。
 2. 实测发现坑还是比较多的，主要是HDMI、8822cs无线无法顺利工作，只能用上100M的有线网卡；另外就是ophub/amlogic-s9xxx-armbian仓库编译的stable内核的版本写入emmc无法找到IP，要使用flippy内核写入emmc才能正常运行，于是有了这个云编译仓库。

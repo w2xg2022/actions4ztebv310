@@ -3,7 +3,7 @@
 # Copyright (C) 2021 https://github.com/ophub/amlogic-s9xxx-armbian
 #==========================================================================
 
-name: Build armbian for TY1608
+name: Build armbian for BV310
 
 on:
   repository_dispatch:
@@ -30,7 +30,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "s905l3b-ip103h"
+        default: "s905l3"
         type: choice
         options:
           - all
@@ -138,7 +138,7 @@ on:
       armbian_kernel:
         description: "Select kernel version."
         required: false
-        default: "5.15.1"
+        default: "5.15.1_6.1.1"
         type: choice
         options:
           - 5.4.1_5.10.1
